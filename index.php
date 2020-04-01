@@ -11,6 +11,6 @@ if (isset($_SESSION['autentificado']) != "VERDADERO")
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	echo "<script type='text/javascript'>window.location='".$uri."/php/view/login.php'</script>"; 
+	echo "<script type='text/javascript'>window.location='".$uri."/php/view/panel.php'</script>"; 
 	exit(); 
 }
